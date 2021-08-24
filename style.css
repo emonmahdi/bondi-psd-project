@@ -1,0 +1,378 @@
+*{
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+body{
+	font-family: roboto;
+} 
+header{
+ 	background:#19283F;
+ 	height:420px;
+ 	width: 100%;
+ 	position:relative;
+}
+p,span{
+	color:#A8B9C0;
+}
+.logo{
+	padding-top: 8px;
+} 
+.menu{
+	line-height: 28px;
+}
+.menu ul li {
+	padding:0 15px;
+}
+.menu ul li a{
+	color:#A8B9C0; 
+	font-size: 15px;
+	font-weight: 400;
+}
+.menu ul li a:hover {
+	color:#33D1CC;
+}
+.active{
+	color:#33D1CC!important;
+}
+.search{
+	background: transparent;
+	border: none;
+	width: 10px;
+	margin-left: 0;
+	display: inline-block;
+	border-right:1px solid #33D1CC;
+}
+.fa-search{
+	color:#33D1CC;
+	font-size: 20px;
+	margin-top: 13px;
+	margin-left: 12px;
+	cursor:pointer;
+}
+.btn-common{
+	background:#FF3150;
+	color:#FFBB05; 
+	border-radius: 16px; 
+	display: inline-block; 
+	font-weight: 500;
+	padding:6px 40px!important;
+}
+button.btn-login{
+ 	font-size: 15px;
+ 	margin-left: 10px;
+ 	
+}
+.hero-section{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:#fff;
+    margin-top: 40px;
+}
+.hero-section h1{
+	font-weight: 400;
+}
+.hero-section p{
+	font-size: 14px;
+}
+.btn-get{
+	margin-top: 15px;
+}
+/*=======================================================*/
+/*==========================Start Services=============================*/
+.services{
+	padding:50px 0;
+	position: relative;
+}
+.section-title:after{
+	content:'';
+	position: absolute;
+	width: 150px;
+	background: #33D1CC;
+	height: 2px; 
+	margin-left: -70px;
+}
+.section-title h2{
+	margin: 8px 0;
+}
+.section-title p{
+	font-size: 12px;
+	color:#C1CDD2;
+	text-transform: uppercase;
+	margin-bottom: 6px;
+}
+.single-service{
+	margin-top: 100px;
+	position:relative;
+} 
+.single-service i{
+	font-size: 60px;
+	color:#33D1CC;
+}
+.single-service .number{ 
+	position: absolute; 
+	font-size: 150px;
+	top: -115px;
+	left: 37%;
+	color:#ddd;
+	z-index: -99;
+	text-align: center;
+	font-weight: 600;
+
+}
+.single-service h3{
+	font-size: 20px;
+	color:#FFBB05;
+	margin-top: 10px;
+	font-weight: 400;
+}
+.single-service p{
+	font-size: 15px;
+	color:#A8B9C0;
+}
+/*=====================================*/
+/*=============Start Portfolio========================*/
+.portfolio{
+	padding: 60px 0;
+	background: #eff7fa;
+}
+.portfolio-item{
+	margin-top: 30px;
+}
+.portfolio-item button{
+	border:none;
+	padding:5px 18px;
+	background:transparent;
+	color:#A8B9C0;
+	transition:.2s linear;
+
+}
+.portfolio-item button:hover,.portfolio-item button.active{
+	background-color:#FF3150;
+	color:#fff!important;
+	border-radius:5px;
+} 
+.portfolio-single{
+	position: relative;
+	margin-bottom: 20px;
+
+} 
+.portfolio-single img{
+	 display: block;
+}
+.portfolio-overlay{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #33D1CC;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease; 
+
+}
+.portfolio-text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:#fff;
+
+}
+.portfolio-text p{
+	color:#fff;
+}
+.portfolio-single:hover .portfolio-overlay {
+  bottom: 0;
+  height: 100%;
+  cursor: pointer;
+}
+.btn-more{
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-top: 15px;
+}
+/*==================================*/
+/*===========About-us=======================*/
+.about-us {
+	padding:60px 0;
+}
+.about-us  span{
+	width: 60%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.about-single{
+	margin-top: 40px;
+}
+.btn-order{
+	text-transform: uppercase;
+	font-size: 12px;
+}
+/*=================================*/
+/*===========Start Team======================*/
+.team{
+	background: #eff7fa;
+	padding:60px 0;
+}
+.team h2{
+	color:#FFC501;
+}
+.team .section-title p{
+	width: 80%;
+	margin:0 auto;
+	margin-bottom: 15px;
+}
+.team .single-member{
+	 height: auto;
+}
+.team .single-member .card{
+	border:none;
+	margin-top: 40px;
+
+}
+.team .single-member .card-body{
+	background:#33D1CC;
+	color:#fff;
+	padding:8px 12px!important; 
+	
+}
+.team .single-member .card-body h5{
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.team .single-member .card-footer{
+	background:#fff;
+}
+/*======================================================*/
+.clients{
+	padding:60px 0;
+}
+/*==============================================*/
+.advice{
+	padding:60px 0;
+	background:#19283F;
+	color:#fff;
+}
+.advice h2{
+	text-transform: capitalize;
+}
+.btn-project{
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+/*===============================================*/
+.blog-section{
+	padding:60px 0;
+}
+.single-blog{
+	margin-top: 40px;
+}
+.single-blog h4{
+	margin-top: 10px;
+}
+.btn-read{
+	padding: 3px 15px!important;
+	margin-top: 10px;
+	font-size: 12px;
+}
+.btn-stories{
+	margin-top: 60px;
+}
+/*================================================*/
+.newslatter{
+	background:#FFC400;
+	padding:50px 0;
+}
+.newslatter label{
+	font-size: 20px;
+}
+.newslatter .email{
+	border:none;
+	background: transparent;
+	border-bottom:2px solid #fff;
+	display: inline-block;
+	margin-left: 20px;
+	outline:none;
+	width: 230px;
+}
+.newslatter input[placeholder]{
+	color:#fff;
+	font-weight: 500;
+}
+.newslatter .submit{
+	background: #19283f;
+	border-radius:30px;
+	color:#FFC400;
+	padding:6px 35px;
+	font-size: 20px;
+	border:none;
+	outline:none;
+}
+.newslatter .submit:hover{
+	color:#fff;
+}
+/*footer=======================*/
+footer{
+	padding:60px 0;
+	background:#19283F;
+}
+.footer-logo{
+	margin-bottom: 30px;
+}
+footer p{
+	line-height: 30px;
+	font-size: 13px;
+}
+footer span{
+	font-size: 14px;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+footer .span2{
+	color:#00C7C0;
+}
+footer h4{
+	color:#fff;
+}
+footer ul li a{
+	color:#8F9FAF;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+footer ul li a:hover{
+	color:#ddd;
+	text-decoration: none;
+}
+.social-links{
+	margin-top: 30px;
+}
+.social-links a{ 
+	background-color: #000;
+	color:#fff;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 50%;
+	margin-right: 10px;
+
+}
+.social-links a:nth-child(1){
+	background-color: #347CD1;
+}
+.social-links a:nth-child(2){
+	background-color: #15CCFF;
+}
+.social-links a:nth-child(3){
+	background-color: #FF3F33;
+}
+.social-links a:nth-child(4){
+	background-color: #FF379D;
+}
